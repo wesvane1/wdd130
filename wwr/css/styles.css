@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&family=Montserrat&family=Roboto:wght@300&display=swap');
+
 #content{
   max-width: 1600px;
   margin: 0 auto;
@@ -6,7 +8,8 @@ nav a{
   text-align:center;
   color: black;
   text-decoration:none;
-  transition: hover, .1s
+  transition: hover, .1s;
+  padding:35px;
 }
 nav a:hover{
   background-color:#C4A782;
@@ -17,6 +20,9 @@ nav a:hover{
 }
 #hero-msg h1, #hero-msg h4{
   text-align:center;
+  font-family: Montserrat;
+  font-size:2em;
+  margin-top:10px;
 }
 .button-box{
   text-align:center;
@@ -26,6 +32,13 @@ main{
 }
 body{
   background-color:rgb(229, 229, 229);
+  font-family:Roboto, Helvetica, sans-serif;
+  font-size:22px;
+  margin:0;
+  padding:0;
+}
+.h2{
+  margin:0;
 }
 #background{
   height:725px;
@@ -37,20 +50,36 @@ header{
 }
 .book, .join{
   text-decoration:none;
+  background-color: #C4A782;
   color:#1a496f;
   transition: hover, .1s;
+  font-size:18px;
+  padding: 15px 30px;
+  margin-top:50px;
+  border-radius:5px;
 }
 .book:hover,.join:hover{
-  background-color: #C4A782;
   text-decoration:underline;
 }
 .msg{
   background-color:#95b1b6;
   color:black;
+  font-family: Roboto, Helvetica, sans-serif;
+  line-height:1.5em;
+  padding:35px;
+}
+.msg p{
+  font-size: .8em;
+  padding-bottom:15px;
 }
 footer{
   background-color:#95b1b6;
   color:white;
+  padding:25px 50px;
+  margin-top:200px;
+}
+footer .social img{
+  padding-top:15px;
 }
 #hero-msg{
   color:#1a496f;
@@ -58,8 +87,12 @@ footer{
 .logo{
   width:80px;
 }
+#logo_link{
+  padding-top:5px;
+}
 .icon{
   width:80px;
+  padding-top:10px;
 }
 #hero-img{
   width:100%;
@@ -74,4 +107,13 @@ footer a{
 footer a:hover{
   text-decoration: underline;
   background-color: #C4A782;
+}
+.rivers-card, .camping-card, .rapids-card{
+  margin:200px 0;
+}
+.card-img{
+  border: 10px solid #C4A782;
+}
+main section img{
+  box-sizing: border-box;
 }
