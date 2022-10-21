@@ -85,5 +85,67 @@ footer a:hover{
   text-align: center;
   padding-top:15px;
 }
+
+/*   ACTIVITIES PAGE   */
+#nar_img{
+  display:grid;
+  grid-template-columns: 1fr 1fr;
+  justify-items: center;
+}
+.nature_walk, .mt_hood{
+  width:75%;
+  padding-top:30px;
+  padding-bottom:30px;
+  
+}
+.hike1, .hike2, .hike3, .hike4{
+  display:grid;
+  grid-template-columns: 1fr 1fr;
+  justify-items:center;
+  justify-content:center;
+  padding:30px;
+}
+
+.trail_img{
+  width:100%;
+  border: 3px solid #F7BEB6;
+}
+.trail_p{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  font-family:Montserrat;
+  font-size:1.5em;
+  color:black;
+}
+.hikes{
+  text-align:center;
+  font-size:2em;
+  font-family:Montserrat;
+}
+h1{
+  text-decoration: underline;
+  text-align: center;
+}
+.oregon_coast_p{
+  text-align:center;
+  font-family:Montserrat;
+  font-size: 1.3em;
+  padding:25px;
+}
+.cannon_beach{
+  width:100%;
+}
+.first_narrative{
+  padding:30px;
+  text-align:center;
+  font-weight:bold;
+  font-size:22px;
+}
+.hike_intro{
+  padding-top:30px;
+  text-align:center;
+  
+}
 @media screen and (max-width: 900px) {
 }
