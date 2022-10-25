@@ -67,13 +67,17 @@ footer a:hover{
   justify-content: center;
   align-items: center;
   font-family:Montserrat;
+  margin-left:10px;
 }
 .div_1_text{
   color:black;
   line-height:1.5em;
   font-size: 1.2em;
-  padding:0 26px;
+  padding:26px;
   text-align:center;
+  background-color: #F7BEB6;
+  border-radius:25px;
+  text-shadow:.5px .5px .5px white;
 }
 .div_2_image{
   width:100%;
@@ -128,9 +132,15 @@ h1{
 }
 .oregon_coast_p{
   text-align:center;
+  margin-top:75px;
+  margin-left:25px;
+  margin-right:25px;
   font-family:Montserrat;
   font-size: 1.3em;
   padding:25px;
+  background-color: #F7BEB6;
+  border-radius:25px;
+  text-shadow:.5px .5px .5px white;
 }
 .cannon_beach{
   width:100%;
@@ -148,9 +158,12 @@ h1{
 }
 /*Testimonials page*/
 .first_narrative{
-  padding-left:150px;
-  padding-right:150px;
-  padding-top:75px;
+  background-color: #F7BEB6;
+  border-radius:25px;
+  margin-top:75px;
+  margin-left:25px;
+  margin-right:25px;
+  text-shadow:.5px .5px .5px white;
 }
 .testimonials{
   padding-top:35px;
@@ -175,6 +188,12 @@ h1{
   padding:25px;
   padding-left:50px;
   padding-right:50px;
+}
+.all_tesitmonials{
+  margin:0 20px;
+  background-color: #F7BEB6;
+  border-radius:25px;
+  text-shadow:.5px .5px .5px white;
 }
 @media screen and (max-width: 900px) {
 }
